@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MeetAI: The Intelligent Meeting Platform
 
-## Getting Started
+**MeetAI** is a next-generation, AI-powered video conferencing application designed to make your meetings more productive, insightful, and accessible. It goes beyond simple video calls by integrating custom real-time AI agents, automated summaries, and powerful search capabilities, all built on a modern, scalable tech stack.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+MeetAI is packed with features to enhance every aspect of your virtual meetings.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### 🤖 AI-Powered Intelligence
+* **Custom Real-time Agents**: Deploy specialized AI agents directly into your calls to assist with tasks, answer questions, and provide real-time information.
+* **AI Meeting Q&A**: After a meeting, ask the AI questions about the conversation content, such as "What were the key action items for the design team?".
+* **Automated Summaries & Transcripts**: Automatically generate concise summaries and full, accurate transcripts for every recorded meeting.
+* **Deep OpenAI Integration**: Leverages the power of OpenAI models for state-of-the-art natural language understanding and generation.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### 📞 Core Communication & Collaboration
+* **High-Quality Video Calls**: Powered by the robust and scalable **Stream Video SDK** for a seamless communication experience.
+* **Integrated Chat**: Real-time messaging during meetings, powered by the **Stream Chat SDK**.
+* **Recordings & Playback**: Securely record your meetings and play them back anytime, anywhere.
 
-## Learn More
+#### 📂 Productivity & User Experience
+* **Meeting History & Statuses**: Easily track your past and upcoming meetings with clear statuses (e.g., scheduled, completed, processing).
+* **Powerful Transcript Search**: Instantly find key moments in your meetings by searching through the full transcript history.
+* **Secure Authentication**: Simple and secure login flows powered by **Better Auth**.
+* **Subscription Management**: Easy-to-manage user subscriptions handled by **Polar**.
+* **Fully Mobile Responsive**: A flawless experience whether you're on a desktop, tablet, or smartphone.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is built with a modern, type-safe, and performant technology stack.
 
-## Deploy on Vercel
+* **Framework**: [Next.js 15](https://nextjs.org/) & [React 19](https://react.dev/)
+* **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) with [Shadcn/ui](https://ui.shadcn.com/) for components
+* **Real-time Communication**: [Stream Video SDK](https://getstream.io/video/) & [Stream Chat SDK](https://getstream.io/chat/)
+* **AI**: [OpenAI API](https://openai.com/api/)
+* **Background Jobs**: [Inngest](https://www.inngest.com/) for reliable, serverless background functions (e.g., summary generation, video processing).
+* **Authentication**: Better Auth
+* **Payments**: Polar Subscriptions
+* **Language**: TypeScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🙏 Acknowledgments
+
+A huge thank you to the teams behind the amazing open-source libraries and services that made this project possible:
+
+* [Next.js](https://nextjs.org/)
+* [Stream](https://getstream.io/)
+* [OpenAI](https://openai.com/)
+* [Tailwind Labs](https://tailwindcss.com/)
+* [Shadcn](https://github.com/shadcn)
+* [Inngest](https://www.inngest.com/)
