@@ -24,7 +24,7 @@ MeetAI is packed with features to enhance every aspect of your virtual meetings.
 * **Powerful Transcript Search**: Instantly find key moments in your meetings by searching through the full transcript history.
 * **Secure Authentication**: Simple and secure login flows powered by **Better Auth**.
 * **Subscription Management**: Easy-to-manage user subscriptions handled by **Polar**.
-* **Fully Mobile Responsive**: A flawless experience whether you're on a desktop, tablet, or smartphone.
+* **Fully Mobile Responsive**: A flawless experience whether you're on desktop, tablet, or smartphone.
 
 ---
 
